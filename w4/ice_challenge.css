@@ -1,0 +1,17 @@
+img {
+  width: 200px;
+}
+body {
+  text-align: center;
+  list-style-position: inside;
+  background-color: lightskyblue;
+}
+header {
+  color: white;
+}
+h1 {
+  font-size: 40px;
+}
+ol {
+  font-weight: bold;
+}
