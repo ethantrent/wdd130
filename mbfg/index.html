@@ -13,44 +13,45 @@
     />
     <meta name="author" content="Military Benefits Financial Guide" />
     <title>Military Benefits Financial Guide</title>
-    <!-- <link rel="stylesheet" href="styles.css" /> -->
+    <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
     <div id="content">
-      <header>
-        <a id="logo-link" href="index.html">
+      <header class="header">
+        <a id="logo-link" href="index.html" class="logo-link">
           <img
             class="logo"
             src="img/mbfg-logo.png"
             alt="Military Benefits Financial Guide Logo"
           />
         </a>
-        <nav>
-          <a href="index.html">Home</a>
-          <a href="benefits.html">Understanding Benefits</a>
-          <a href="budgeting.html">Budgeting</a>
+        <nav class="nav">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="benefits.html" class="nav-link">Understanding Benefits</a>
+          <a href="budgeting.html" class="nav-link">Budgeting</a>
         </nav>
       </header>
 
-      <div id="hero">
-        <div id="hero-box">
+      <div id="hero" class="hero">
+        <div id="hero-box" class="hero-box">
           <img
             id="hero-img"
+            class="hero-img"
             src="img/hero-index.jpg"
             alt="Military service members in action"
           />
         </div>
-        <section id="hero-msg">
+        <section id="hero-msg" class="hero-msg">
           <h1 class="home-title">Military Benefits Financial Guide</h1>
         </section>
       </div>
 
-      <main>
-        <div class="main-content">
-          <h2>
+      <main class="home-grid">
+        <div class="main-content content-block">
+          <h2 class="section-title">
             Empowering Service Members & Veterans with Financial Knowledge
           </h2>
-          <p>
+          <p class="section-text">
             Navigating military life comes with unique financial challenges and
             opportunities. Whether you're active duty, a veteran, or a military
             family member, this site provides essential information on benefits,
@@ -58,83 +59,133 @@
           </p>
         </div>
 
-        <section class="section">
-          <h3>What You'll Find Here:</h3>
-          <ul>
-            <li>Step-by-step guides on military benefits & entitlements</li>
-            <li>Practical budgeting strategies for military life</li>
-            <li>Exclusive military discounts & savings opportunities</li>
-            <li>Help & support for navigating VA benefits, loans, and more</li>
+        <section class="section content-block">
+          <h3 class="section-subtitle">What You'll Find Here:</h3>
+          <ul class="feature-list">
+            <li class="feature-item">
+              Step-by-step guides on military benefits & entitlements
+            </li>
+            <li class="feature-item">
+              Practical budgeting strategies for military life
+            </li>
+            <li class="feature-item">
+              Exclusive military discounts & savings opportunities
+            </li>
+            <li class="feature-item">
+              Help & support for navigating VA benefits, loans, and more
+            </li>
+            <li class="feature-item">
+              Comprehensive guides covering all stages of military life
+            </li>
+            <li class="feature-item">
+              Expert financial advice from military-specialized advisors
+            </li>
+            <li class="feature-item">
+              Latest updates on military benefits and opportunities
+            </li>
+            <li class="feature-item">
+              Community forums for connecting with other service members
+            </li>
+            <li class="feature-item">
+              Free financial tools and planning resources
+            </li>
           </ul>
-          <div class="placeholder">
+          <div class="soldiers-image">
             <img src="img/soldiers.jpg" alt="Group of soldiers in uniform" />
           </div>
         </section>
 
-        <section class="section">
-          <h3>Explore Our Resources:</h3>
-          <ul>
-            <li>
+        <section class="section content-block">
+          <div class="image-placeholder2">
+            <img
+              class="salute"
+              src="img/salute.jpg"
+              alt="Soldier saluting the flag"
+            />
+          </div>
+          <div class="right-content">
+            <h3 class="section-subtitle">Why Choose Us?</h3>
+            <ul class="feature-list">
+              <li class="feature-item">
+                Trusted Information - Curated from official sources & veteran
+                support
+              </li>
+              <li class="feature-item">
+                Military-Focused Financial Tips - Tailored advice for service
+                members and their families
+              </li>
+              <li class="feature-item">
+                Actionable Guidance - Simple, easy-to-follow steps to maximize
+                your benefits
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="section content-block">
+          <h3 class="section-subtitle">Explore Our Resources:</h3>
+          <ul class="feature-list">
+            <li class="feature-item">
               VA home loans, TRICARE healthcare, GI Bill education benefits, and
               retirement plans.
             </li>
-            <li>
+            <li class="feature-item">
               Budgeting for military life, from PCS moves to deployment savings,
               discover financial strategies that help military families stay
               secure.
             </li>
-            <li>
+            <li class="feature-item">
               Save on travel, retail, insurance, and everyday essentials with
               verified military exclusive discounts.
             </li>
-            <li>
+            <li class="feature-item">
               Need assistance with VA claims, financial counseling, or military
               resources? Find the best support options for military personnel
               and veterans.
             </li>
           </ul>
         </section>
-
-        <section class="section">
-          <h3>Why Choose Us?</h3>
-          <ul>
-            <li>
-              Trusted Information - Curated from official sources & veteran
-              support
-            </li>
-            <li>
-              Military-Focused Financial Tips - Tailored advice for service
-              members and their families
-            </li>
-            <li>
-              Actionable Guidance - Simple, easy-to-follow steps to maximize
-              your benefits
-            </li>
-          </ul>
-          <div class="placeholder">
-            <img src="img/salute.jpg" alt="Soldier saluting the flag" />
-          </div>
-        </section>
       </main>
     </div>
 
-    <footer>
-      <p>
-        MBFG &copy; 2025 - Ethan Trent |
-        <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a> |
-        <a href="site-plan.html">Site Plan</a>
+    <footer class="footer">
+      <p class="footer-text">
+        MBFG © 2025 - Ethan Trent |
+        <a href="#" class="footer-link">Privacy Policy</a> |
+        <a href="#" class="footer-link">Terms of Service</a> |
+        <a href="site-plan.html" class="footer-link">Site Plan</a>
       </p>
-      <div class="social">
-        <a href="https://facebook.com" target="_blank" aria-label="Facebook">
-          <img src="images/facebook.png" alt="Facebook icon" />
+      <div class="social social-links">
+        <a
+          href="https://facebook.com"
+          target="_blank"
+          class="social-link"
+          aria-label="Facebook"
+        >
+          <img src="img/facebook.png" alt="Facebook icon" class="social-icon" />
         </a>
-        <a href="https://twitter.com" target="_blank" aria-label="Twitter">
-          <img src="images/twitter.png" alt="Twitter icon" />
+        <a
+          href="https://twitter.com"
+          target="_blank"
+          class="social-link"
+          aria-label="Twitter"
+        >
+          <img src="img/twitter.png" alt="Twitter icon" class="social-icon" />
         </a>
-        <a href="https://instagram.com" target="_blank" aria-label="Instagram">
-          <img src="images/instagram.png" alt="Instagram icon" />
+        <a
+          href="https://instagram.com"
+          target="_blank"
+          class="social-link"
+          aria-label="Instagram"
+        >
+          <img
+            src="img/instagram.png"
+            alt="Instagram icon"
+            class="social-icon"
+          />
         </a>
       </div>
     </footer>
+    <script src="scripts/main.js"></script>
   </body>
 </html>

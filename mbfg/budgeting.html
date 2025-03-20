@@ -13,28 +13,41 @@
     />
     <meta name="author" content="Military Benefits Financial Guide" />
     <title>Military Benefits Financial Guide</title>
-    <!-- <link rel="stylesheet" href="styles.css" /> -->
+    <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
     <div id="content">
-      <header>
-        <a id="logo-link" href="index.html">
+      <header class="header">
+        <a id="logo-link" href="index.html" class="logo-link">
           <img
             class="logo"
             src="img/mbfg-logo.png"
             alt="Military Benefits Financial Guide Logo"
           />
         </a>
-        <nav>
-          <a href="index.html">Home</a>
-          <a href="benefits.html">Understanding Benefits</a>
-          <a href="budgeting.html">Budgeting</a>
+        <nav class="nav">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="benefits.html" class="nav-link">Understanding Benefits</a>
+          <a href="budgeting.html" class="nav-link">Budgeting</a>
         </nav>
       </header>
 
+      <div id="hero" class="hero">
+        <div id="hero-box" class="hero-box">
+          <img
+            id="hero-img"
+            class="hero-img"
+            src="img/budget.jpg"
+            alt="Military family reviewing a budget spreadsheet"
+          />
+        </div>
+        <section id="hero-msg" class="hero-msg">
+          <h1 class="home-title">Budgeting for Military Life</h1>
+        </section>
+      </div>
+
       <main>
         <div class="main-content">
-          <h1>Budgeting for Military Life</h1>
           <div class="intro">
             <h2>Where Do I Start?</h2>
             <p>
@@ -84,7 +97,6 @@
               >
               to estimate your total earnings.
             </p>
-            <!-- Removed empty placeholder; add content if needed -->
           </div>
 
           <div class="section">
@@ -107,10 +119,6 @@
                 Emergency fund, TSP contributions, extra debt payments.
               </li>
             </ol>
-            <img
-              src="img/budget.jpg"
-              alt="Military family reviewing a budget spreadsheet"
-            />
           </div>
 
           <div class="section">
@@ -132,30 +140,55 @@
                 all of your earnings may be tax-free.
               </li>
             </ul>
-            <img src="img/savings.jpg" alt="Piggy bank with military savings" />
-            <!-- Removed empty placeholder; add content if needed -->
+            <div class="image-container">
+              <img
+                src="img/savings.jpg"
+                alt="Piggy bank with military savings"
+              />
+            </div>
           </div>
         </div>
       </main>
     </div>
 
-    <footer>
-      <p>
+    <footer class="footer">
+      <p class="footer-text">
         MBFG © 2025 - Ethan Trent |
-        <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a> |
-        <a href="site-plan.html">Site Plan</a>
+        <a href="#" class="footer-link">Privacy Policy</a> |
+        <a href="#" class="footer-link">Terms of Service</a> |
+        <a href="site-plan.html" class="footer-link">Site Plan</a>
       </p>
-      <div class="social">
-        <a href="https://facebook.com" target="_blank" aria-label="Facebook">
-          <img src="images/facebook.png" alt="Facebook icon" />
+      <div class="social social-links">
+        <a
+          href="https://facebook.com"
+          target="_blank"
+          class="social-link"
+          aria-label="Facebook"
+        >
+          <img src="img/facebook.png" alt="Facebook icon" class="social-icon" />
         </a>
-        <a href="https://twitter.com" target="_blank" aria-label="Twitter">
-          <img src="images/twitter.png" alt="Twitter icon" />
+        <a
+          href="https://twitter.com"
+          target="_blank"
+          class="social-link"
+          aria-label="Twitter"
+        >
+          <img src="img/twitter.png" alt="Twitter icon" class="social-icon" />
         </a>
-        <a href="https://instagram.com" target="_blank" aria-label="Instagram">
-          <img src="images/instagram.png" alt="Instagram icon" />
+        <a
+          href="https://instagram.com"
+          target="_blank"
+          class="social-link"
+          aria-label="Instagram"
+        >
+          <img
+            src="img/instagram.png"
+            alt="Instagram icon"
+            class="social-icon"
+          />
         </a>
       </div>
     </footer>
+    <script src="scripts/main.js"></script>
   </body>
 </html>
