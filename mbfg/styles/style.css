@@ -14,7 +14,12 @@ body {
   overflow-x: hidden;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Montserrat", "Times New Roman", sans-serif;
 }
 
@@ -283,7 +288,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .section:nth-child(2) .soldiers-image {
   grid-column: 2;
-  width: 40%;
+  width: 70%;
   height: auto;
   margin: 20px auto 0;
   padding-left: 0;
